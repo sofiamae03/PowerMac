@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Power Mac</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .content {
+            margin: 20px;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .product img {
+            width: 100%;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Welcome to Power Mac</h1>
+    </div>
+    <div class="content">
+        <div class="product">
+            <img src="myimage3.jpg" style="width:30%">
+            <h2>iPhone 15 Pro</h2>
+            <p>Price: ₱70,990</p>
+            <p><b>Now with Titanium.</b></p>
+            <button>Add to Bag</button>
+        </div>
+        <div class="product">
+            <img src="myimage2.jpg" style="width:30%">
+            <h2>iPad Pro</h2>
+            <p>Price: ₱55,990</p>
+            <button>Add to Bag</button>
+        </div>
+        <div class="product">
+            <img src="myimage14.jpg" style="width:30%">
+            <h2>iPad Air</h2>
+            <p>Price: ₱55,845</p>
+            <button>Add to Bag</button>
+        </div>
+    </div>
+</body>
+
+</html>
